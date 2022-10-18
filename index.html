@@ -10,27 +10,38 @@
 <body>
     <header>
         <nav>
-            <h2>
-                <a href="">CARA <img src="./assets/icons8-pottery-96.png" alt="Outline of a vase."> CARA</a>
-            </h2>
             <h3>
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>PRODUCTS</li>
-                    <li>CONTACT</li>
-                    <li>CART (0)</li>
+                <ul class="flex-container-navbar">
+                    <div class="flex-container-nav1">    
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#products">PRODUCTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </div>
+                    <li>
+                        <h2 class="flex-container-nav2">
+                            <a href="#about">
+                                <a>CARA</a>
+                                <img src="./assets/icons8-pottery-96.png" alt="Outline of a vase.">
+                                <a>CARA</a>
+                            </a>
+                        </h2>
+                    </li>
+                    <div class="flex-container-nav3">
+                        <li class="search-container"><img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="Magnifying glass"></li>
+                        <li style="float: right"><a href="#cart">CART (0)</a></li>
+                    </div>
                 </ul>
             </h3>
         </nav>
     </header>
-    <main>
+    <main id="home">
         <section class="home">
             <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Two hands molding clay on a pottery wheel.">
         </section>
     </main>
     <section>
-        <h1>ABOUT US</h1>
+        <h1 id="about">ABOUT US</h1>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, quasi. Minima maiores alias sint porro, nesciunt, quod culpa iste repellat rem pariatur voluptatum eius fugit libero? Inventore ex itaque beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius doloribus sit commodi, deserunt, quidem cum accusantium soluta perspiciatis similique corrupti obcaecati. Dignissimos eos autem, libero vel mollitia non assumenda.
         </p>
@@ -44,7 +55,7 @@
         <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="White cylindrical vase holding tall green plant">
     </section>
     <section>
-        <h1>OUR PRODUCTS</h1>
+        <h1 id="products">OUR PRODUCTS</h1>
         <div>
             <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Three speckled bowls, one larger than the other two.">
             <h2>MUNDO BOWLS</h2>
@@ -63,7 +74,7 @@
         <div></div>
     </section>
     <section>
-        <h1>CONTACT US</h1>
+        <h1 id="contact">CONTACT US</h1>
         <h2>EMAIL</h2>
         <h2>MESSAGE</h2>
         <h3>SEND</h3>

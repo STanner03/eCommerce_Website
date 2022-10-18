@@ -8,5 +8,69 @@
 
 html {
     box-sizing: border-box;
+    font-family: segoe UI;
     font-size: 62.5%;
+}
+
+body {
+    padding-bottom: 8rem;
+    margin: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+    position: relative;
+    padding: auto;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.flex-container-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.flex-container-nav1 {
+    display: flex;
+    align-items: center;
+}
+.flex-container-nav2 {
+    display: flex;
+    align-items: center;
+}
+.flex-container-nav2 img {
+    HEIGHT: 20px;
+    OBJECT-FIT: contain;
+}
+.flex-container-nav3 {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    width: 200px;
+    height: 18px;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid black;
+    text-align: right;
+}
+.search-container img {
+    height: 16.5px;
+    object-fit: contain;
 }
