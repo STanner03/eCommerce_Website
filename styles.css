@@ -8,24 +8,25 @@
 
 html {
     box-sizing: border-box;
-    font-family: segoe UI;
+    font-family: Segoe UI;
     font-size: 62.5%;
 }
 
 body {
     padding-bottom: 8rem;
-    margin: 0;
 }
 
 header {
     background-color: #FFFFFF;
-    position: relative;
+    position:sticky;
     padding: auto;
+    /* position: fixed; */
 }
 
 nav a {
     color: #000000;
     text-decoration: none;
+    margin-inline: 10px;
     
 }
 
@@ -40,10 +41,20 @@ nav li {
     margin-right: 0.5rem;
 }
 
+section {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
 .flex-container-navbar {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .flex-container-nav1 {
     display: flex;
@@ -52,6 +63,7 @@ nav li {
 .flex-container-nav2 {
     display: flex;
     align-items: center;
+    margin: none;
 }
 .flex-container-nav2 img {
     HEIGHT: 20px;
@@ -74,3 +86,55 @@ nav li {
     height: 16.5px;
     object-fit: contain;
 }
+.home {
+    display: flex;
+    margin-top: 15px;
+    justify-items: center;
+    align-items: center;
+}
+.home img {
+    width: 100%;
+    object-fit: scale-down;
+}
+.home-textbox1 {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 100px;
+}
+.home-textbox2 {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 100px
+}
+.about {
+    display: flex;
+}
+.about img {
+    height: 550px;
+    object-fit: scale-down;
+    margin-left: 50px;
+}
+.sub1 {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+.sub1 p {
+    margin: 50px;
+}
+.sub2 {
+    display: flex;
+    width: auto;
+    height: 400px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.sub2 img {
+    height: 400px;
+    margin-left: 0;
+    margin-right: 50px;
+}
+
